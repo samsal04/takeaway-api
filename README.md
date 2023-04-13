@@ -13,13 +13,13 @@ Setup
 
     Clone the repository from GitHub:
 
-    bash
+  
 
 git clone <repository-url>
 
 Navigate to the project directory:
 
-bash
+
 
 cd employee-management-system
 
@@ -29,7 +29,7 @@ mvn clean install
 
 Start the application using Maven:
 
-arduino
+
 
 mvn spring-boot:run
 
@@ -51,7 +51,7 @@ docker pull mysql
 
 Start a MySQL container:
 
-arduino
+
 
         docker run -d -p 3306:3306 --name employee-db -e MYSQL_ROOT_PASSWORD=<root-password> -e MYSQL_DATABASE=employee_db mysql
 
@@ -80,7 +80,7 @@ Testing
 
 The application includes unit and integration tests using JUnit and Mockito for testing the functionality of the endpoints and service methods. You can run the tests using Maven:
 
-bash
+
 
 mvn test
 

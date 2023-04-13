@@ -87,3 +87,8 @@ mvn test
 Event Publishing with Kafka
 
 The application publishes events related to employee creation, update, and deletion to a Kafka
+
+    
+  PS : 
+    
+    The project works fine without Kafka, had some issue with kafka config so config does not entirely works. Spring security with inform authentication on updated spring 3.0. Some tests are missing. 

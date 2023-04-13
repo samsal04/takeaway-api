@@ -1,0 +1,14 @@
+version: '3'
+services:
+  db:
+    image: mysql
+    container_name: my-mysql-container
+    environment:
+      - MYSQL_ROOT_PASSWORD=my-password
+      - MYSQL_DATABASE=employee_db
+      - MYSQL_USER=root
+      - MYSQL_PASSWORD=2448
+    volumes:
+      - ./data:/var/lib/mysql
+    ports:
+      - "3306:3306"
